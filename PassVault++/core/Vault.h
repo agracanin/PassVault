@@ -16,6 +16,9 @@ public:
     // Find a single entry by id (nullptr if not found)
     const PasswordEntry* findEntryById(const std::string& id) const;
 
+    void saveToFile(const std::string& filePath) const;
+    bool loadFromFile(const std::string& filePath);
+
 private:
     std::vector<PasswordEntry> m_entries;
 };

@@ -1,6 +1,6 @@
 #include <iostream>
-#include "Vault.h"
-#include "PasswordEntry.h"
+#include "core/Vault.h"
+#include "core/PasswordEntry.h"
 
 int main() {
     Vault vault;
@@ -16,17 +16,20 @@ int main() {
 
     vault.addEntry(e1);
 
-    std::cout << "Current entries in vault:\n";
-    for (const auto& entry : vault.getEntries()) {
-        std::cout << "- [" << entry.id << "] "
-            << entry.title << " ("
-            << entry.username << ")\n";
-    }
+    // Save
+    vault.saveToFile("vault.json");
+    std::cout << "Saved vault.json\n";
 
-    const PasswordEntry* found = vault.findEntryById("1");
-    if (found) {
-        std::cout << "\nFound entry 1: " << found->title
-            << " / " << found->username << "\n";
+    // Load into a new vault
+    Vault loaded;
+    if (loaded.loadFromFile("vault.json")) {
+        std::cout << "Loaded entries:\n";
+        for (const auto& entry : loaded.getEntries()) {
+            std::cout << "- " << entry.title << " (" << entry.username << ")\n";
+        }
+    }
+    else {
+        std::cout << "Failed to load vault.json\n";
     }
 
     return 0;

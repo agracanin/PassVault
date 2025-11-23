@@ -1,4 +1,8 @@
 #include "Vault.h"
+#include "../external/json/json.hpp"
+#include <fstream>
+
+using json = nlohmann::json;
 
 void Vault::addEntry(const PasswordEntry& entry) {
 	m_entries.push_back(entry);
@@ -25,4 +29,28 @@ const PasswordEntry* Vault::findEntryById(const std::string& id) const {
 		}
 	}
 	return nullptr;
+}
+
+void Vault::saveToFile(const std::string& filePath) const {
+	json j;
+	j["entries"] = m_entries;
+
+	std::ofstream out(filePath);
+	out << j.dump(4);
+}
+
+bool Vault::loadFromFile(const std::string& filePath) {
+	std::ifstream in(filePath);
+	if (!in.is_open()) {
+		return false;
+	}
+
+	json j;
+	in >> j;
+	if (!j.contains("entries")) {
+		return false;
+	}
+
+	m_entries = j["entries"].get<std::vector<PasswordEntry>>();
+	return true;
 }

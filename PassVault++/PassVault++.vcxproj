@@ -129,12 +129,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="core\Vault.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Vault.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="PasswordEntry.h" />
-    <ClInclude Include="Vault.h" />
+    <ClInclude Include="core\PasswordEntry.h" />
+    <ClInclude Include="core\Vault.h" />
+    <ClInclude Include="external\json\json.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

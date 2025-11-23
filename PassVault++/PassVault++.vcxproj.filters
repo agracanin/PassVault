@@ -16,21 +16,30 @@
     <Filter Include="core">
       <UniqueIdentifier>{21ac558d-828d-4bcc-b87d-bf430844af21}</UniqueIdentifier>
     </Filter>
+    <Filter Include="external">
+      <UniqueIdentifier>{a4b6bf89-8608-4fa6-9e0c-fb5b54687ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\json">
+      <UniqueIdentifier>{d4a5b7ac-6271-4402-ae4c-3f33effd4825}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Vault.cpp">
+    <ClCompile Include="core\Vault.cpp">
       <Filter>core</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="PasswordEntry.h">
+    <ClInclude Include="core\Vault.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="Vault.h">
+    <ClInclude Include="core\PasswordEntry.h">
       <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="external\json\json.hpp">
+      <Filter>external\json</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
