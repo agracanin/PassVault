@@ -1,36 +1,44 @@
 #include <iostream>
+#include <string>
+#include <vector>
+#include <sodium.h>
+
 #include "core/Vault.h"
 #include "core/PasswordEntry.h"
+#include "core/Crypto.h"
+
 
 int main() {
-    Vault vault;
-
-    PasswordEntry e1;
-    e1.id = "1";
-    e1.title = "GitHub";
-    e1.username = "test";
-    e1.password = "supersecret123";
-    e1.url = "https://github.com";
-    e1.notes = "Personal account";
-    e1.lastModified = "2025-11-22T19:00:00Z";
-
-    vault.addEntry(e1);
-
-    // Save
-    vault.saveToFile("vault.json");
-    std::cout << "Saved vault.json\n";
-
-    // Load into a new vault
-    Vault loaded;
-    if (loaded.loadFromFile("vault.json")) {
-        std::cout << "Loaded entries:\n";
-        for (const auto& entry : loaded.getEntries()) {
-            std::cout << "- " << entry.title << " (" << entry.username << ")\n";
-        }
+    if (sodium_init() < 0) {
+        std::cerr << "Failed to initialize libsodium\n";
+        return 1;
     }
-    else {
-        std::cout << "Failed to load vault.json\n";
+
+    std::cout << "libsodium initialized successfully.\n";
+
+    // --- Test Crypto on a simple message ---
+    std::string masterPassword = "My$uperSecureMasterPassword!";
+    std::string message = "Hello, this is secret JSON or something.";
+
+    std::vector<unsigned char> plaintext(message.begin(), message.end());
+    EncryptedData encrypted;
+
+    if (!Crypto::encrypt(masterPassword, plaintext, encrypted)) {
+        std::cerr << "Encryption failed.\n";
+        return 1;
     }
+
+    std::cout << "Encryption succeeded. Ciphertext size: "
+              << encrypted.ciphertext.size() << "\n";
+
+    std::vector<unsigned char> decrypted;
+    if (!Crypto::decrypt(masterPassword, encrypted, decrypted)) {
+        std::cerr << "Decryption failed.\n";
+        return 1;
+    }
+
+    std::string decryptedStr(decrypted.begin(), decrypted.end());
+    std::cout << "Decrypted text: " << decryptedStr << "\n";
 
     return 0;
 }
