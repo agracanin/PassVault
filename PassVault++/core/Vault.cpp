@@ -54,3 +54,19 @@ bool Vault::loadFromFile(const std::string& filePath) {
 	m_entries = j["entries"].get<std::vector<PasswordEntry>>();
 	return true;
 }
+
+std::string Vault::toJsonString() const {
+	json j;
+	j["entries"] = m_entries;
+	return j.dump(4);
+}
+
+bool Vault::fromJsonString(const std::string& jsonStr) {
+	json j = json::parse(jsonStr, nullptr, false);
+	if (j.is_discarded() || !j.contains("entries")) {
+		return false;
+	}
+
+	m_entries = j["entries"].get<std::vector<PasswordEntry>>();
+	return true;
+}
