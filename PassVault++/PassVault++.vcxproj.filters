@@ -22,6 +22,9 @@
     <Filter Include="external\json">
       <UniqueIdentifier>{d4a5b7ac-6271-4402-ae4c-3f33effd4825}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{6f233a5f-3c90-436a-bdab-51cd058b7bd7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -29,6 +32,15 @@
     </ClCompile>
     <ClCompile Include="core\Vault.cpp">
       <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Crypto.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\VaultStorage.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\MainWindow.cpp">
+      <Filter>ui</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -41,5 +53,16 @@
     <ClInclude Include="external\json\json.hpp">
       <Filter>external\json</Filter>
     </ClInclude>
+    <ClInclude Include="core\Crypto.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\VaultStorage.h">
+      <Filter>core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="ui\MainWindow.h">
+      <Filter>ui</Filter>
+    </QtMoc>
   </ItemGroup>
 </Project>

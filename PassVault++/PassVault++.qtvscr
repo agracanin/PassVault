@@ -1,0 +1,429 @@
+<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" FontFamily="Segoe UI" FontSize="12">
+  <FlowDocument.Tag><![CDATA[{
+  "timestamp": "2025-11-27 15:22:11",
+  "files": {
+    "C:\\Dev\\PassVault++\\PassVault++\\PassVault++.vcxproj": {
+      "before": "7Vlfb9s2EO/zgH2CvRhCBicPsewkbbJFVtHKaWDU+YM4f14CFLR0ttVKokBSabx233IfaEeJpCzHTmJkS7oseQgg8o48/nj3u+P5r19evXLeXsdR7QoYD2nStlqNplWDxKdBmIzaViaG6zvWW/fnn5xjRj+DL2odGJIsEqeEjUDwtvU+C6PAquEqCX6NhUh/t23ujyEmvBGHPqOcDkXDp7EdwBVENAVmx3wg1eyNZnPTwtVrNacrIN5nNEtrPTKAqG2pDT2aDMNRxohAA3khjOLzZmvdxI+yANpWBwbZ6PtFmGxuaA3UqSzl5jKOXR2Upsg/5zgiYkhZ7OaLOLb5LiRwoMBjnvodxp1ABITDHeYpqacwsEDv+s3WQ7HDJf4V5G4z7d64LWmcYxsPLRwWHQBdWUwqTrsf0QGJSjc995SfnBcR5ra2G03HvjGsvOojTL5SFhROJzUdWw8pCbXcfhYG7jcSkOH26zfb683fNlrrW/7OzjrZGQbr/jCA1uD1Nmz45E/jqrmOWuaEUnFIYuAp8cE9Jpyfy6h27OqEksYYCOhXXsS8jgRzoqY80a0iVdvlvtNbqiPlw1IyN7iEVtFDnFImakq2ba2snnuKg46JGK9dHhiq8dK0oViqkeIlcatmz7syDN0glKzStuorq5VAXvu+sqrPuVZvt+tThFK3NENVVHSsVFnmdJKC+y5No9DPCWwmnPNphc4Zh3yXXjhghIXAXcEycOyb4xpORVGnlEYchHvV2tosw02PKmFvTBjxBbA+Sp4lITI8rl0ZXYg9gl5eR20Z2CpU93jADTEE/zHkLsY0AoRgxEh8lIowDv/Ir1Jdz8LpJwXeUPjjgf58vBUzw+PB9lx8tbscQVeJuVCuZNK9awGJLEqRsAQWoyqnYhrON8plp1NDRbmPbAdBQcn309Ac1x8DlrXWUixXSQ65TZjEbuKBRM5keu2EbDZdTWWbRoZiOm9NcS1ch1zwVcxUS69TXzMpq0d9EmE+6hBBdIIz6fFe0D4EqJl08AKVedgsKDhyJnqBaTFM2qOeH1A6ziq8JkP/gMg3tQla+SrBajdM8lK2kJ6ijeUqW+1qXuTROA0jUAPIZxeEJUjDPfmGd/P/WGxWBouCB0X7nZ43Bv+LqpDMpxE4ZoD87wPnlJW2c/eie7i5sfups/f+bH/3k3d02D/q7e3+urpAfk2+FOavZLaSNTo+40niwwGWvMqk2VFVq9mz53Z6YfKlxKCfDfoTjoC7uADHstCxyyGz5T4kgO2KoprvFtvLZ4bae+G0NsLsWTw5S4Cmc94Db13HTd7dqJdvlwfd+4cs8eVBc++Qp0B/UYeeO2UQ6yaChZjsfS2m3z5zJoyScaui8DSfRmCRbxRedvgf97K9hAwi8I4OOu9OP9BI9usU1vNmDCjqBQMnMASGjT7zzJwzYZQWumwB/cLpYgHHfgyPnnrxPDGLPRl/IfX2SDLKyAj6giQBwU4SF4Gfpq1tvITZKX07/zvSqxQLs6dfLtVpwvrBKe+F7H48siuzObqc8cLyNwyfMrj02CQVtIEhrAu+W4TzFu4ysn1BGZLF3SoxCZNpqRvN8GpvPLdR/Rgz/0DjynHmi8qutOyG72F1MGncR6MA4N6S+vh3KAB2IlhCosvPnCb5v8a4vI+bUCzXCBHFD2kaD9U3qFT9phWiGt7z+xqmz+/+DQ==",
+      "after": "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"
+    }
+  }
+}]]></FlowDocument.Tag>
+  <Section Margin="0,24" TextAlignment="Center">
+    <Paragraph FontSize="24" FontWeight="Bold" Margin="12,0">
+      <LineBreak />
+      <Span Foreground="Gray">Qt Visual Studio Tools</Span>
+    </Paragraph>
+    <Paragraph FontSize="42" Margin="12,0" FontWeight="Bold">
+      <Span TextDecorations="Underline">Project Format Conversion</Span>
+    </Paragraph>
+    <Paragraph Margin="12,8" FontSize="18">
+      <Span>Report generated on 2025-11-27 15:22:11</Span>
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Files</Span>
+    </Paragraph>
+    <Paragraph Margin="24,12,0,0">
+      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[C:\Dev\PassVault++\PassVault++\PassVault++.vcxproj]]></Span>
+      <LineBreak />
+      <Hyperlink NavigateUri="file://C:\Dev\PassVault++\PassVault++\PassVault++.vcxproj?before">[Before]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Dev\PassVault++\PassVault++\PassVault++.vcxproj?after">[After]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Dev\PassVault++\PassVault++\PassVault++.vcxproj?diff&amp;before&amp;after">
+                        [Diff before/after]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Dev\PassVault++\PassVault++\PassVault++.vcxproj?diff&amp;before&amp;current">
+                        [Diff before/current]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Dev\PassVault++\PassVault++\PassVault++.vcxproj?diff&amp;after&amp;current">
+                        [Diff after/current]
+                    </Hyperlink>
+      <LineBreak />
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Changes</Span>
+    </Paragraph>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Enabling multi-processor compilation]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Dev\PassVault++\PassVault++\PassVault++.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Project format version]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Dev\PassVault++\PassVault++\PassVault++.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Keyword>QtVS_v304</Keyword>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Fallback for QTMSBUILD environment variable]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Dev\PassVault++\PassVault++\PassVault++.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Default Qt properties]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Dev\PassVault++\PassVault++\PassVault++.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt_defaults.props" Condition="Exists('$(QtMsBuild)\qt_defaults.props')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt build settings]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Dev\PassVault++\PassVault++\PassVault++.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Warn if Qt/MSBuild is not found]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Dev\PassVault++\PassVault++\PassVault++.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') OR !Exists('$(QtMsBuild)\Qt.props')">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  </Target>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt property sheet]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Dev\PassVault++\PassVault++\PassVault++.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt targets]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Dev\PassVault++\PassVault++\PassVault++.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt.targets" Condition="Exists('$(QtMsBuild)\qt.targets')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+  </Section>
+  <Section>
+    <Paragraph />
+  </Section>
+</FlowDocument>
+<!--WIWvaX1DhzqrASsTTLvb3wJRxcg1Wt5TXxv6RIaYyoA=-->
