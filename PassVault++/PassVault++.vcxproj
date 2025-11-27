@@ -155,6 +155,7 @@
     <ClCompile Include="core\VaultStorage.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ui\MainWindow.cpp" />
+    <ClCompile Include="ui\UnlockDialog.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="core\Crypto.h" />
@@ -162,6 +163,7 @@
     <ClInclude Include="core\Vault.h" />
     <ClInclude Include="core\VaultStorage.h" />
     <ClInclude Include="external\json\json.hpp" />
+    <QtMoc Include="ui\UnlockDialog.h" />
     <QtMoc Include="ui\MainWindow.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

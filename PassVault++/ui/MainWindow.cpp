@@ -7,11 +7,13 @@
 #include <QtWidgets/QMessageBox>
 #include <QtWidgets/QAbstractItemView>
 #include <QtGui/QStandardItemModel>
+#include <filesystem>
 
 #include "../core/VaultStorage.h"
 
-MainWindow::MainWindow(QWidget* parent)
+MainWindow::MainWindow(const std::string& masterPassword, QWidget* parent)
     : QMainWindow(parent),
+    m_masterPassword(masterPassword),
     m_tableView(nullptr),
     m_model(nullptr)
 {
@@ -26,7 +28,6 @@ void MainWindow::setupUi() {
     m_tableView = new QTableView(central);
     m_model = new QStandardItemModel(this);
 
-    // Define columns
     m_model->setColumnCount(3);
     m_model->setHeaderData(0, Qt::Horizontal, "Title");
     m_model->setHeaderData(1, Qt::Horizontal, "Username");
@@ -45,23 +46,21 @@ void MainWindow::setupUi() {
 }
 
 void MainWindow::loadVault() {
-    // For now, just load with a hardcoded password and path
-    // Later we'll askuser
     const std::string filePath = "vault.enc";
-    const std::string masterPassword = "test"; // TEMP
 
     Vault vault;
-    if (!VaultStorage::loadEncrypted(vault, filePath, masterPassword)) {
-        // For now, show a message if we can't load
-        QMessageBox::warning(this, "Vault",
-            "Failed to load encrypted vault.\n"
-            "Later this will prompt for a password.");
-        return;
+
+    if (std::filesystem::exists(filePath)) {
+        if (!VaultStorage::loadEncrypted(vault, filePath, m_masterPassword)) {
+            QMessageBox::warning(this, "Vault",
+                "Failed to open encrypted vault.\n"
+                "Wrong password or file is corrupted.");
+            return;
+        }
     }
 
     m_vault = vault;
 
-    // Populate table
     const auto& entries = m_vault.getEntries();
     m_model->setRowCount(static_cast<int>(entries.size()));
 

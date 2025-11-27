@@ -42,6 +42,9 @@
     <ClCompile Include="ui\MainWindow.cpp">
       <Filter>ui</Filter>
     </ClCompile>
+    <ClCompile Include="ui\UnlockDialog.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="core\Vault.h">
@@ -62,6 +65,9 @@
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="ui\MainWindow.h">
+      <Filter>ui</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\UnlockDialog.h">
       <Filter>ui</Filter>
     </QtMoc>
   </ItemGroup>
