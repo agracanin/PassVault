@@ -154,6 +154,7 @@
     <ClCompile Include="core\Vault.cpp" />
     <ClCompile Include="core\VaultStorage.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ui\AddEntryDialog.cpp" />
     <ClCompile Include="ui\MainWindow.cpp" />
     <ClCompile Include="ui\UnlockDialog.cpp" />
   </ItemGroup>
@@ -163,6 +164,7 @@
     <ClInclude Include="core\Vault.h" />
     <ClInclude Include="core\VaultStorage.h" />
     <ClInclude Include="external\json\json.hpp" />
+    <QtMoc Include="ui\AddEntryDialog.h" />
     <QtMoc Include="ui\UnlockDialog.h" />
     <QtMoc Include="ui\MainWindow.h" />
   </ItemGroup>

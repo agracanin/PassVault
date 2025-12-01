@@ -17,6 +17,7 @@ public:
 private:
     void setupUi();
     void loadVault();
+    void addEntry();
 
     std::string m_masterPassword;
     Vault m_vault;
